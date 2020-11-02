@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "extends": "koa",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "semi": 2,
+    "strict": 2,
+    "consistent-this": 2,
+    "curly": 2,
+    "eqeqeq": 2,
+    "guard-for-in": 2,
+    "max-params": 1,
+    "no-caller": 0,
+    "no-extra-semi": 2,
+    "quotes": [2, "single", {
+      "avoidEscape": true, // 允许包含单引号的字符串使用双引号
+      "allowTemplateLiterals": true // 允许使用模板字符串
+    }]
+  }
+}
